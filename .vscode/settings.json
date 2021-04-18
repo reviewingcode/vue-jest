@@ -1,0 +1,29 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "vue",
+    "javascript",
+    "html"
+  ],
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": true,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "singleQuote": true,
+      "semi": false,
+      "trailingComma": "none",
+      "arrowParens": "avoid"
+    }
+  },
+  "vetur.format.defaultFormatter.html": "prettyhtml"
+}
